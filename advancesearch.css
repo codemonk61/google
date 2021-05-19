@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	color: red;
+	height: 100px;
+	line-height: 100px;
+
+}
+.link a {
+	text-decoration: none;
+}
+.link a:hover{
+	text-decoration:underline;
+}
+table{
+	padding: 20px;
+}
+input{
+	width: 400px;
+	height: 25px;
+	outline-color:rgba(3, 148, 252,0.6);
+}
+table td .btn{
+	border:none;
+	background-color: blue;
+	color:white;
+	width:100px;
+
+}
+ @media  screen and (max-width:900px)
+
+{
+input{
+	width: 400px;
+	height: 25px;
+	outline-color:rgba(3, 148, 252,0.6);
+}
+}
+@media  screen and (max-width:700px)
+{
+	table{
+		font-size:8px;
+	}
+input{
+	width: 150px;
+	height:15px;
+	outline:none;
+}
+table td .btn{
+	border:none;
+	background-color: rgba(3, 148, 252,0.6);
+	color:white;
+	font-size:10px;
+	width:50px;
+
+}
+}
